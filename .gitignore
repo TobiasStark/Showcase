@@ -1,35 +1,23 @@
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+node_modules
 
-# build output directories
-# SvelteKit standard build/dev output
+# Output
+.output
+.vercel
+.netlify
+.wrangler
 /.svelte-kit
 /build
-/package
 
-# Vite/Rollup output (if used directly or outside SvelteKit)
-/dist
-/public/build
+# OS
+.DS_Store
+Thumbs.db
 
-# logs and cache
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.npm
-.eslintcache
-.stylelintcache
-
-# environment variables
-# Keep an example file, but ignore the actual secrets
+# Env
 .env
 .env.*
 !.env.example
+!.env.test
 
-# IDEs and OS files
-.idea/
-.vscode/
-.DS_Store
-Thumbs.db
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
